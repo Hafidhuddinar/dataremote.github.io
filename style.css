@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.bordered-table {
+    padding-top: 80px;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.bordered-table th,
+.bordered-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.bordered-table th {
+    background-color: #f2f2f2;
+}
+
+
+/* CSS untuk tabel */
+#data-table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    /* Warna border */
+    font-size: 12px;
+    /* Ukuran font */
+}
+
+#data-table th,
+#data-table td {
+    border: 1px solid #ddd;
+    /* Warna border */
+    padding: 8px;
+    /* Padding cell */
+    text-align: left;
+    /* Posisi teks */
+}
+
+#data-table th {
+    background-color: #f2f2f2;
+    /* Warna latar header */
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #e0e0e0;
+    /* Warna latar baris genap */
+}
+
+#data-table tr:hover {
+    background-color: #f1f1f1;
+    /* Warna latar saat hover */
+}
+
+/* Gaya untuk menyusun filter secara horizontal */
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-container label {
+    white-space: nowrap;
+}
+
+.filter-container input[type="text"] {
+    width: 150px;
+}
